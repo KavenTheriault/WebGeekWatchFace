@@ -1,0 +1,7 @@
+<resources>
+    <fonts>
+        <font id="FontelloMedium" filename="fonts/fontello_28.fnt"/>
+        <font id="FontelloLarge" filename="fonts/fontello_100.fnt"/>
+        <font id="WeatherIcons" filename="fonts/weather-icons-jgs.fnt"/>
+    </fonts>
+</resources>
