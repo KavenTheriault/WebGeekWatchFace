@@ -10,7 +10,6 @@ import Toybox.Weather;
 class WebGeekWatchFaceView extends WatchUi.WatchFace {
 
     // Fonts
-    private var fontSmall;
     private var fontMedium;
     private var fontLarge;
     private var fontWeatherIcons;
@@ -19,7 +18,7 @@ class WebGeekWatchFaceView extends WatchUi.WatchFace {
     private var background;
 
     // Contants
-    private var centerX, centerY, screenH, screenW;
+    private var centerX, screenW;
 
     // Icons
     const ICON_HEART = "!";
@@ -40,10 +39,8 @@ class WebGeekWatchFaceView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         // Screen
-        screenH = dc.getHeight();
     	screenW = dc.getWidth();
     	centerX = screenW / 2;
-    	centerY = screenH / 2;
 
         // Fonts
         fontMedium = WatchUi.loadResource(Rez.Fonts.FontelloMedium);
